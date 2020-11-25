@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuary</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .box1{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+            display: none;
+        }
+        .box3{
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+        }
+        .box4{
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--  Show/Hide -->
+        <h3>show/Hide</h3>
+    <div class="box1"></div>
+    <button class="btn btn-primary" id="hide">Hide me</button>
+    <button class="btn btn-primary" id="show">Show me</button>
+    <button class="btn btn-primary" id="show-hide">Show-Hide-Toggle</button>
+
+    <!-- Fade -->
+    <h3>Fade In-Out-Toggle</h3>
+    <div class="box2"></div>
+    <button class="btn btn-secondary" id="fadein">fadeIn</button>
+    <button class="btn btn-secondary" id="fadeout">fadeOut</button>
+    <button class="btn btn-secondary" id="fadeinout">fadeToggle</button>
+
+    <!-- Slide -->
+    <h3>Slide-Up-Down-Toggle</h3>
+    <div class="box3"></div>
+    <button class="btn btn-danger" id="slideup">SlideUp</button>
+    <button class="btn btn-danger" id="slidedown">slidedown</button>
+    <button class="btn btn-danger" id="slideupdown">SlideToggle</button>
+
+    <!-- Animate -->
+    <h3>Animate</h3>
+    <button class="btn btn-success" id="animate1">Animate</button>
+    <button class="btn btn-success" id="animate2">Animate</button>
+    <div class="box4"></div>
+  
+    
+
+    </div>
+
+
+
+    <script src="js/jQuery3.5.1.min.js"></script>
+    <script src="js/script.js">
+    </script>
+</body>
+</html>
